@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<h:outputStylesheet library="css" name="bootstrap.min.css" />
+</h:head>
+
+<body>
+
+	<div class="container">
+		<h1>Cadastro de Produtos da Natura</h1>
+		<h:messages>
+			<h:form styleClass="form-inline">
+
+				<div class="form-group">
+					<h:outputLabel value="Descrição" for="descricao"  />
+					<h:inputText value="#{gerenciarProduto.produto.descricao}" styleClass="form-control"/>
+				</div>
+
+				<div class="form-group">
+					<h:outputLabel value="Quantidade" for="quantidade" />
+					<h:inputText value="#{gerenciarProduto.produto.quantidade}" styleClass="form-control"/>
+				</div>
+
+				<div class="form-group">
+					<h:outputLabel value="Valor Unitário" for="valor" />
+					<h:inputText value="#{gerenciarProduto.produto.valorUnitario}" />
+				</div>
+
+				<h:commandButton action="#{gerenciarProduto.Cadastrar}"
+					value="Cadastrar" styleClass="btn btn-primary" />
+
+			</h:form>
+
+			<h:form styleClass="form-inline">
+				<h:outputLabel value="ID" for="id" />
+				<h:inputText value="#{gerenciarProduto.produto.id}" id="id"
+					styleClass="form-control" />
+				<h:commandButton action="#{gerenciarProduto.buscar()}" value="Buscar"
+					styleClass="btn btn-success" />
+			</h:form>
+
+
+			<h:dataTable value="#{gerenciarProduto.listar()}" var="c"
+				styleClass="table">
+				<h:column>
+					<f:facet name="header">Descrição</f:facet>
+			#{c.descricao}
+		</h:column>
+				<h:column>
+					<f:facet name="header">Quantidade</f:facet>
+			#{c.quantidade}
+		</h:column>
+				<h:column>
+					<f:facet name="header">Valor Unitário</f:facet>
+			#{c.valorUnitario}
+		</h:column>
+				<h:column>
+
+				</h:column>
+			</h:dataTable>
+
+		</h:messages>
+	</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;ProjetoNaturaAm_SOAP_Requester_3/src/br.com.fiap.bo&apos;&#x0D;&#x0A;- Original project: &apos;ProjetoNaturaAm_SOAP_Requester_2&apos;&#x0D;&#x0A;- Destination element: &apos;ProjetoNaturaAm_SOAP_Requester_3/src/br.com.fiap.bo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     br.com.fiap.bo.ProdutoBOStub.java&#x0D;&#x0A;     br.com.fiap.bo.ProdutoBOCallbackHandler.java" description="Copy compilation units" destination="=ProjetoNaturaAm_SOAP_Requester_3/src&lt;br.com.fiap.bo" element1="/src&lt;br.com.fiap.bo{ProdutoBOStub.java" element2="/src&lt;br.com.fiap.bo{ProdutoBOCallbackHandler.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1494773514918" units="2" version="1.0"/>
+</session>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-websocket.jar"/>
+  <path value="/ProjetoNaturaAm_SOAP_Requester_3/WebContent/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="ProjetoNaturaAm_SOAP_Requester_3"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/httpcomponents/httpcore/4.0/httpcore-4.0.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.7.1/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/woden/woden-impl-dom/1.0M9/woden-impl-dom-1.0M9.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-jni.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/jsp-api.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/websocket-api.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/el-api.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/woden/woden-api/1.0M9/woden-api-1.0M9.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/catalina-ha.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1/geronimo-activation_1.1_spec-1.1.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/jaxen/jaxen/1.1.3/jaxen-1.1.3.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/ws/commons/schema/XmlSchema/1.4.7/XmlSchema-1.4.7.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/axis2/axis2-transport-http/1.6.2/axis2-transport-http-1.6.2.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/javax/ws/rs/jsr311-api/1.0/jsr311-api-1.0.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/ws/commons/axiom/axiom-impl/1.2.13/axiom-impl-1.2.13.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/sun/faces/jsf-api/2.2.14/jsf-api-2.2.14.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/commons-fileupload/commons-fileupload/1.2/commons-fileupload-1.2.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-api.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/catalina-ant.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/jasper-el.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/annotations-api.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-coyote.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/geronimo/specs/geronimo-ws-metadata_2.0_spec/1.1.2/geronimo-ws-metadata_2.0_spec-1.1.2.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/ws/commons/axiom/axiom-api/1.2.13/axiom-api-1.2.13.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/ecj-4.6.1.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-util-scan.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/neethi/neethi/3.0.2/neethi-3.0.2.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/axis2/axis2-transport-local/1.6.2/axis2-transport-local-1.6.2.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/catalina.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/catalina-tribes.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/jasper.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/sun/faces/jsf-impl/2.2.14/jsf-impl-2.2.14.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/html_basic.tld" project="NaturaRestRequester"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/jsf_core.tld" project="NaturaRestRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/mojarra_ext.taglib.xml" project="NaturaRestRequester"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/mojarra_ext.tld" project="NaturaRestRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="NaturaRestRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="NaturaRestRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="NaturaRestRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="NaturaRestRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="NaturaRestRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="NaturaRestRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="NaturaRestRequester"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/jaspic-api.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/axis2/axis2/1.6.2/axis2-1.6.2.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/servlet-api.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1/geronimo-jta_1.1_spec-1.1.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/woden/woden-impl-commons/1.0M9/woden-impl-commons-1.0M9.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-util.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/apache/axis2/axis2-kernel/1.6.2/axis2-kernel-1.6.2.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-i18n-fr.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="40" name="%0" offset="608" path="%1"/>
+   <linked-el length="16" name="%0" offset="1728" path="%1"/>
+   <linked-el length="27" name="%0" offset="2031" path="%1"/>
+   <linked-el length="23" name="%0" offset="1826" path="%1"/>
+   <linked-el length="24" name="%0" offset="1926" path="%1"/>
+   <linked-el length="41" name="%0" offset="805" path="%1"/>
+   <linked-el length="44" name="%0" offset="1002" path="%1"/>
+   <linked-el length="33" name="%0" offset="1358" path="%1"/>
+   <linked-el length="40" name="%2" offset="608" path="%1"/>
+   <linked-el length="16" name="%2" offset="1728" path="%1"/>
+   <linked-el length="27" name="%2" offset="2031" path="%1"/>
+   <linked-el length="23" name="%2" offset="1826" path="%1"/>
+   <linked-el length="31" name="%2" offset="1603" path="%1"/>
+   <linked-el length="24" name="%2" offset="1926" path="%1"/>
+   <linked-el length="41" name="%2" offset="805" path="%1"/>
+   <linked-el length="44" name="%2" offset="1002" path="%1"/>
+   <linked-el length="31" name="%2" offset="1465" path="%1"/>
+   <linked-el length="33" name="%2" offset="1358" path="%1"/>
+   <linked-el length="38" name="%2" offset="1117" path="%1"/>
+   <linked-el length="40" name="%3" offset="608" path="%1"/>
+   <linked-el length="31" name="%3" offset="1603" path="%1"/>
+   <linked-el length="41" name="%3" offset="805" path="%1"/>
+   <linked-el length="44" name="%3" offset="1002" path="%1"/>
+   <linked-el length="31" name="%3" offset="1465" path="%1"/>
+   <linked-el length="33" name="%3" offset="1358" path="%1"/>
+   <linked-el length="38" name="%3" offset="1117" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/ProjetoNaturaAm_SOAP_Requester_3/src/br/com/fiap/bo/ProdutoBOStub.java" value="%0"/>
+  <alias path="gerenciarProduto" value="%2"/>
+  <alias
+   path="/ProjetoNaturaAm_SOAP_Requester_3/src/br/com/fiap/gerenciar/GerenciarProduto.java" value="%3"/>
+  <alias
+   path="/ProjetoNaturaAm_SOAP_Requester_3/WebContent/Produto.xhtml" value="%1"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<h:outputStylesheet library="css" name="bootstrap.min.css" />
+</h:head>
+<body>
+	<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed"
+				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Link4It</a>
+
+			<ul class="nav navbar-nav">
+				<li> <h:link outcome="cadastroUsuario">Cadastrar Usuario</h:link> </li>
+				<li><h:link outcome="listaUsuario">Listar Usuarios</h:link></li>
+				<li><h:link outcome="buscaUsuario">Buscar Usuario</h:link></li>
+			</ul>
+		</div>
+	</div>
+	<!-- /.container-fluid --> </nav>
+	<div class="container">
+		<h1>Link4It</h1>
+		<ui:insert name="conteudo"></ui:insert>
+		<p>Todos os direitos reservados &copy; - 2017</p>
+	</div>
+
+	<h:outputScript library="js" name="jquery-3.2.1.min.js" />
+	<h:outputScript library="js" name="bootstrap.min.js" />
+
+</body>
+</html>

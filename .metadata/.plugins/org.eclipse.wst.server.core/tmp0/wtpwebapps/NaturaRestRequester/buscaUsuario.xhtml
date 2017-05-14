@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<body>
+
+	<ui:composition template="_template.xhtml">
+		<ui:define name="conteudo">
+			<h1>Buscar Usuario</h1>
+
+			<h:form styleClass="form-inline col-md-12">
+				<h:outputLabel value="Codigo: " for="codigo" />
+				<h:inputText value="#{buscaUsuarioBean.usuario.codigo}" id="codigo"
+					styleClass="form-control" />
+				<h:commandButton action="#{buscaUsuarioBean.buscar()}"
+					value="Buscar" styleClass="btn btn-success" />
+			</h:form>
+
+
+			<c:if test="#{buscaUsuarioBean.usuario.codigo>0}">
+				<div class="col-md-12">
+					<h2>Usuario Encontrado</h2>
+
+					<h:panelGrid id="panel" columns="2"
+						styleClass="table table-user-information">
+						<h:outputText value="Login:" />
+						<h:outputLabel value="#{buscaUsuarioBean.usuario.login}" />
+
+						<h:outputText value="Senha:" />
+						<h:outputLabel value="#{buscaUsuarioBean.usuario.senha}" />
+
+						<h:outputText value="Tipo Login:" />
+						<h:outputLabel value="#{buscaUsuarioBean.usuario.tipoLogin}" />
+
+						<h:outputText value="Tipo Usuario:" />
+						<h:outputLabel value="#{buscaUsuarioBean.usuario.tipoUsuario}" />
+
+						<h:outputText value="Login:" />
+						<h:outputLabel value="#{buscaUsuarioBean.usuario.login}" />
+					</h:panelGrid>
+				</div>
+			</c:if>
+		</ui:define>
+	</ui:composition>
+
+</body>
+</html>

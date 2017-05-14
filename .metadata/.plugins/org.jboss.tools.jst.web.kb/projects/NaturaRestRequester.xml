@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-websocket.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.8.4/jackson-jaxrs-json-provider-2.8.4.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.25.1/jersey-guava-2.25.1.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-jni.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/2.25.1/jersey-entity-filtering-2.25.1.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/jsp-api.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/websocket-api.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/el-api.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/catalina-ha.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.4/jackson-module-jaxb-annotations-2.8.4.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/sun/jersey/jersey-client/1.8/jersey-client-1.8.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b32/aopalliance-repackaged-2.5.0-b32.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/sun/faces/jsf-api/2.2.14/jsf-api-2.2.14.jar"/>
+  <path value="/NaturaRestRequester/WebContent/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="NaturaRestRequester"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-api.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/catalina-ant.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/jasper-el.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/annotations-api.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-coyote.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.8.4/jackson-jaxrs-base-2.8.4.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/ecj-4.6.1.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-util-scan.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/catalina.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/glassfish/hk2/hk2-utils/2.5.0-b32/hk2-utils-2.5.0-b32.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/glassfish/jersey/core/jersey-common/2.25.1/jersey-common-2.25.1.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/jasper.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/2.25.1/jersey-media-json-jackson-2.25.1.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/sun/faces/jsf-impl/2.2.14/jsf-impl-2.2.14.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/html_basic.tld" project="NaturaSOAPRequester"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/jsf_core.tld" project="NaturaSOAPRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/mojarra_ext.taglib.xml" project="NaturaSOAPRequester"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/mojarra_ext.tld" project="NaturaSOAPRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="NaturaSOAPRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="NaturaSOAPRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="NaturaSOAPRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="NaturaSOAPRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="NaturaSOAPRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="NaturaSOAPRequester"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="NaturaSOAPRequester"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/jaspic-api.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/glassfish/hk2/hk2-locator/2.5.0-b32/hk2-locator-2.5.0-b32.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/servlet-api.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-util.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/glassfish/hk2/external/javax.inject/2.5.0-b32/javax.inject-2.5.0-b32.jar"/>
+  <path value="C:/Program Files/eclipse/Apache/Tomcat 9/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/org/glassfish/hk2/hk2-api/2.5.0-b32/hk2-api-2.5.0-b32.jar"/>
+  <path value="C:/Users/Administrador/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="39" name="%0" offset="1115" path="%1"/>
+   <linked-el length="35" name="%2" offset="1414" path="%1"/>
+   <linked-el length="37" name="%3" offset="569" path="%4"/>
+   <linked-el length="36" name="%3" offset="1049" path="%4"/>
+   <linked-el length="36" name="%3" offset="680" path="%4"/>
+   <linked-el length="38" name="%3" offset="792" path="%4"/>
+   <linked-el length="36" name="%3" offset="1154" path="%4"/>
+   <linked-el length="40" name="%3" offset="1264" path="%4"/>
+   <linked-el length="36" name="%3" offset="1491" path="%4"/>
+   <linked-el length="42" name="%3" offset="1380" path="%4"/>
+   <linked-el length="39" name="%5" offset="623" path="%1"/>
+   <linked-el length="42" name="%5" offset="1344" path="%1"/>
+   <linked-el length="44" name="%5" offset="1043" path="%1"/>
+   <linked-el length="37" name="%5" offset="1556" path="%1"/>
+   <linked-el length="39" name="%5" offset="821" path="%1"/>
+   <linked-el length="35" name="%6" offset="1414" path="%1"/>
+   <linked-el length="31" name="%7" offset="426" path="%8"/>
+   <linked-el length="17" name="%9" offset="561" path="%8"/>
+   <linked-el length="23" name="%9" offset="838" path="%8"/>
+   <linked-el length="21" name="%9" offset="740" path="%8"/>
+   <linked-el length="31" name="%9" offset="426" path="%8"/>
+   <linked-el length="17" name="%9" offset="648" path="%8"/>
+   <linked-el length="23" name="%10" offset="838" path="%8"/>
+   <linked-el length="21" name="%10" offset="740" path="%8"/>
+   <linked-el length="39" name="%10" offset="623" path="%1"/>
+   <linked-el length="36" name="%10" offset="1154" path="%4"/>
+   <linked-el length="17" name="%10" offset="648" path="%8"/>
+   <linked-el length="44" name="%10" offset="1043" path="%1"/>
+   <linked-el length="39" name="%10" offset="821" path="%1"/>
+   <linked-el length="42" name="%10" offset="1380" path="%4"/>
+   <linked-el length="17" name="%10" offset="561" path="%8"/>
+   <linked-el length="37" name="%10" offset="569" path="%4"/>
+   <linked-el length="36" name="%10" offset="1049" path="%4"/>
+   <linked-el length="38" name="%10" offset="792" path="%4"/>
+   <linked-el length="42" name="%10" offset="1344" path="%1"/>
+   <linked-el length="40" name="%10" offset="1264" path="%4"/>
+   <linked-el length="36" name="%10" offset="1491" path="%4"/>
+   <linked-el length="39" name="%11" offset="1115" path="%1"/>
+   <linked-el length="37" name="%12" offset="569" path="%4"/>
+   <linked-el length="36" name="%12" offset="1049" path="%4"/>
+   <linked-el length="36" name="%12" offset="680" path="%4"/>
+   <linked-el length="38" name="%12" offset="792" path="%4"/>
+   <linked-el length="36" name="%12" offset="1154" path="%4"/>
+   <linked-el length="40" name="%12" offset="1264" path="%4"/>
+   <linked-el length="36" name="%12" offset="1491" path="%4"/>
+   <linked-el length="42" name="%12" offset="1380" path="%4"/>
+   <linked-el length="39" name="%13" offset="623" path="%1"/>
+   <linked-el length="42" name="%13" offset="1344" path="%1"/>
+   <linked-el length="44" name="%13" offset="1043" path="%1"/>
+   <linked-el length="37" name="%13" offset="1556" path="%1"/>
+   <linked-el length="39" name="%13" offset="821" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/NaturaRestRequester/src/br/com/fiap/natura/bean/TipoLoginBean.java" value="%2"/>
+  <alias path="cadastraUsuarioBean" value="%5"/>
+  <alias
+   path="/NaturaRestRequester/src/br/com/fiap/natura/bean/ListaUsuarioBean.java" value="%7"/>
+  <alias path="/NaturaRestRequester/WebContent/buscaUsuario.xhtml" value="%4"/>
+  <alias
+   path="/NaturaRestRequester/src/br/com/fiap/natura/bean/CadastraUsuarioBean.java" value="%13"/>
+  <alias path="/NaturaRestRequester/WebContent/listaUsuario.xhtml" value="%8"/>
+  <alias
+   path="/NaturaRestRequester/src/br/com/fiap/natura/bean/TipoUsuarioBean.java" value="%0"/>
+  <alias path="buscaUsuarioBean" value="%3"/>
+  <alias path="tipoLoginBean" value="%6"/>
+  <alias path="listaUsuarioBean" value="%9"/>
+  <alias
+   path="/NaturaRestRequester/src/br/com/fiap/natura/entity/Usuario.java" value="%10"/>
+  <alias path="tipoUsuarioBean" value="%11"/>
+  <alias path="/NaturaRestRequester/WebContent/cadastroUsuario.xhtml" value="%1"/>
+  <alias
+   path="/NaturaRestRequester/src/br/com/fiap/natura/bean/BuscaUsuarioBean.java" value="%12"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>
